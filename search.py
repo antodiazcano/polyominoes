@@ -50,7 +50,7 @@ def _get_expanded_set(M: np.array) -> List[np.array]:
     
     Returns
     -------
-    expanded_set : New possible polyominos.
+    expanded_set : New possible polyominoes.
     """
     
     # Obtain the coordinates where there is a 1
@@ -136,7 +136,7 @@ def draw_set(arrays: List[np.array]) -> None:
     nn = len(arrays) // 2 if len(arrays) % 2 == 0 else len(arrays) // 2 + 1
     fig, axs = plt.subplots(nn, 2)
     n = np.max([arr.shape for arr in arrays])
-    fig.suptitle("All non isomorphic polyominos for $n = $" + str(n),
+    fig.suptitle("All non isomorphic polyominoes for $n = $" + str(n),
                  x=0.55, y=0.95)
     
     i = 0

@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from _drawing import draw_polyonimo
+from _drawing import draw_polyomino
 
 
 
@@ -107,5 +107,5 @@ class Polyomino:
         axs: Matplotlib axes where to plot the figure.
         """
         
-        draw_polyonimo(self.matrix, axs)
+        draw_polyomino(self.matrix, axs)
         

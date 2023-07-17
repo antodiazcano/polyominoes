@@ -11,7 +11,7 @@ AZUL_OSCURO = "#051C2C"
 AZUL_ELECTRICO = "#0EA9F0"
 
 
-def draw_polyonimo(M: np.array, ax: plt.Axes) -> None:
+def draw_polyomino(M: np.array, ax: plt.Axes) -> None:
     
     """
     Draws the figure represented by the binary matrix M.
