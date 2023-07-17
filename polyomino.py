@@ -7,7 +7,7 @@ from _drawing import draw_polyonimo
 class Polyomino:
     
     
-    """ Class to represent a polycube by a binary square matrix. """
+    """ Class to represent a polycube by a binary matrix. """
     
     
     def __init__(self, M: np.array) -> None:
